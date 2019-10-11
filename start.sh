@@ -23,5 +23,5 @@ fi
 
 # - Connect
 
-echo "Starting SSH connection over TOR"
-exec torsocks ssh -oStrictHostKeyChecking=no $@
+echo "Starting SSH connection"
+exec ssh -oStrictHostKeyChecking=no $@
